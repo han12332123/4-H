@@ -26,7 +26,7 @@ let keyArry = [];
 
 
 
-let globeSpeed = 1;
+let globeSpeed = 30;
 let zoomCheck =false;
 let bloomVal = 1;
 let disVal = 0;
