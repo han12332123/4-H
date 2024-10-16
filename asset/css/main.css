@@ -24,8 +24,11 @@
     position: absolute;
     left: 30px;
     bottom: 25px;
-    width: 180px;
-    height: 85px;
+    width: 230px;
+    background: rgba(110, 110, 110, 0.5);
+    border-radius:5px;
+    padding: 15px 10px;
+    /* height: 85px; */
     /* background: #0f0 */
     color:#fff;
 }
@@ -53,6 +56,34 @@
     border:2px solid #fff;
     position: absolute;
     bottom: 16px;
+}
+
+.sc-date .group-rank{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.sc-date .group-rank .rank-title{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.sc-date .group-rank .rank-list{
+    display: flex;
+    gap: 8px;
+    background: rgba(255, 255, 255, 1);
+    color: #333;
+    border-radius:4px;
+    padding: 5px 7px;
+    padding-right:35px;
+    position: relative;
+}
+.sc-date .group-rank .rank{}
+.sc-date .group-rank .name{}
+.sc-date .group-rank .point{
+    position: absolute;
+    right: 7px;
+
 }
 
 
@@ -200,7 +231,6 @@
     }
     .sc-notif .notif{
         overflow: hidden;
-        color: #000;
         white-space:nowrap;
         text-overflow:ellipsis;
         max-width:260px;
