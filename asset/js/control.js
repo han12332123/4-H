@@ -97,7 +97,7 @@ let notifTriggerNum = [ //알림 트리거 설정
 
 
 export let rankNameList = [
-    {name:"NNN대학교",temp:10},
+    {name:"강원대학교4-H회",temp:10},
     {name:"BBB대학교",temp:6},
     {name:"AAA대학교",temp:7},
     {name:"III대학교",temp:8},
