@@ -6,7 +6,7 @@ let pauseTimeCon = 2000; // 전체 큐 길이값
 let intervalTimeCon = 20; //틱 시간값 1000ms = 1s
 let earthOpacityCon = 1; //지구본 녹화 값 0~1
 let tempNow = 40; //시작 온도값
-let tempCon = 14; //목표 온도값 백분율
+let tempCon = 40; //목표 온도값 백분율
 let limitDate = new Date(); //종료일 기본값 오늘날짜
 let startDate = '2023-1-11' //시작일
 let notifiTrigger = 800; //알람 지속 시간
