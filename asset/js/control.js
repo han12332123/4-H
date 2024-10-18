@@ -48,10 +48,10 @@ let notifTriggerNum = [ //알림 트리거 설정
 
 
 export let rankNameList = [
-    {name:"",temp:0},
-    {name:"",temp:0},
-    {name:"",temp:0},
-    {name:"전국대학4-H연합회",temp:8},
+    {name:"A대학교4-H회",temp:30},
+    {name:"B대학교4-H회",temp:20},
+    {name:"C대학교4-H회",temp:10},
+    {name:"전국대학4-H연합회",temp:50},
 ]    
 
 rankNameList.sort((a, b) => b.temp - a.temp);
