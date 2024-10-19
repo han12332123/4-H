@@ -123,9 +123,9 @@ let red;
 let green;
 let blue;
 
-let donutRedCon = donutRed* 30 / 100
-let donutGreenCon = donutGreen* 25 / 100
-let donutBlueCon = donutBlue* 30 / 100
+let donutRedCon = donutRed* 0 / 100
+let donutGreenCon = donutGreen* 0 / 100
+let donutBlueCon = donutBlue* 0 / 100
 
 
 
