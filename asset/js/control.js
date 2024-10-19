@@ -15,7 +15,7 @@ let notifiTrigger = 800; //알람 지속 시간
 // 지구 글로우색상값 변경 백분율
 let donutRed = 100;
 let donutGreen = 100;
-let donutBlue = 0;
+let donutBlue = 100;
 
 
 
