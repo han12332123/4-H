@@ -48,7 +48,6 @@ export let rankNameList = [
     {name:"대학4-H 서울아카데미",temp:0.1},
     {name:"전북대학교4-H회",temp:0.1},
     {name:"영남대학교4-H회",temp:0.1},
-    {name:"",temp:0},
 ]    
 
 rankNameList.sort((a, b) => b.temp - a.temp);
