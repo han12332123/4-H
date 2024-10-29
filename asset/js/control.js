@@ -6,7 +6,7 @@ let pauseTimeCon = 2000; // 전체 큐 길이값
 let intervalTimeCon = 20; //틱 시간값 1000ms = 1s
 let earthOpacityCon = 0.1; //지구본 녹화 값 0~1
 let tempNow = 40; //시작 온도값
-let tempCon = 39.4; //목표 온도값 백분율
+let tempCon = 38.2; //목표 온도값 백분율
 let limitDate = new Date(); //종료일 기본값 오늘날짜
 let startDate = '2024-1-1' //시작일
 let notifiTrigger = 800; //알람 지속 시간
@@ -27,11 +27,12 @@ let notifArry = [ //프로젝트명 기술
     '전북대학교4-H회 텀블러 사용-0.1℃',
     '영남대학교4-H회 텀블러 사용-0.1℃',
     '한국농수산대학교4-H회 텀블러 사용-0.1℃',
-    '잔북대학교4-H회 에코백 사용-0.1℃',
+    '전북대학교4-H회 에코백 사용-0.1℃',
     '연암대학교4-H회 텀블러 사용-0.1℃',
     '한국농수산대학교4-H회 텀블러 사용-0.1℃',
     '경북대학교4-H회 플로깅 활동-0.9℃',
-    
+    '경북대학교4-H회 텀블러 사용-0.1℃',
+    '전북대학교4-H회 전기자전거 이용-0.1℃',
 ]
 
 
@@ -46,6 +47,8 @@ let notifTriggerNum = [ //알림 트리거 설정
 "2024-02-20",
 "2024-02-30",
 "2024-03-10",
+"2024-03-20",
+"2024-03-30",
 ]
 
 
@@ -55,11 +58,11 @@ let notifTriggerNum = [ //알림 트리거 설정
 
 export let rankNameList = [
     {name:"대학4-H 서울아카데미",temp:0.1},
-    {name:"전북대학교4-H회",temp:0.2},
+    {name:"전북대학교4-H회",temp:0.3},
     {name:"영남대학교4-H회",temp:0.1},
     {name:"한국농수산대학교4-H회",temp:0.2},
     {name:"연암대학교4-H회",temp:0.1},
-    {name:"경북대학교4-H회(상주캠)",temp:0.9},
+    {name:"경북대학교4-H회(상주캠)",temp:1.0},
 ]
 
 rankNameList.sort((a, b) => b.temp - a.temp);
