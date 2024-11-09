@@ -6,7 +6,7 @@ let pauseTimeCon = 2000; // 전체 큐 길이값
 let intervalTimeCon = 20; //틱 시간값 1000ms = 1s
 let earthOpacityCon = 0.4; //지구본 녹화 값 0~1
 let tempNow = 40; //시작 온도값
-let tempCon = 32.3; //목표 온도값 백분율
+let tempCon = 32.2; //목표 온도값 백분율
 let limitDate = new Date(); //종료일 기본값 오늘날짜
 let startDate = '2024-1-1' //시작일
 let notifiTrigger = 800; //알람 지속 시간
@@ -78,7 +78,7 @@ let notifTriggerNum = [ //알림 트리거 설정
 
 export let rankNameList = [
     {name:"대학4-H 서울아카데미",temp:0.1},
-    {name:"전북대학교4-H회",temp:2.0},
+    {name:"전북대학교4-H회",temp:2.1},
     {name:"영남대학교4-H회",temp:0.1},
     {name:"한국농수산대학교4-H회",temp:3.5},
     {name:"연암대학교4-H회",temp:0.2},
