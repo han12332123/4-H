@@ -6,7 +6,7 @@ let pauseTimeCon = 2000; // 전체 큐 길이값
 let intervalTimeCon = 20; //틱 시간값 1000ms = 1s
 let earthOpacityCon = 0.4; //지구본 녹화 값 0~1
 let tempNow = 40; //시작 온도값
-let tempCon = 33.1; //목표 온도값 백분율
+let tempCon = 32.3; //목표 온도값 백분율
 let limitDate = new Date(); //종료일 기본값 오늘날짜
 let startDate = '2024-1-1' //시작일
 let notifiTrigger = 800; //알람 지속 시간
@@ -42,7 +42,7 @@ let notifArry = [ //프로젝트명 기술
     '전북대학교4-H회 전기자전거 이용-0.1℃'
     '전북대학교4-H회 피플로우 활동-1.0℃'
     '전북대학교4-H회 대중교통 이용-0.1℃'
-    
+    '한경대학교4-H회 플로깅 활동-0.8℃',
 ]
 
 
@@ -68,6 +68,7 @@ let notifTriggerNum = [ //알림 트리거 설정
 "2024-06-10",
 "2024-06-20",
 "2024-06-30",
+"2024-07-10",
 ]
 
 
@@ -82,6 +83,7 @@ export let rankNameList = [
     {name:"한국농수산대학교4-H회",temp:3.5},
     {name:"연암대학교4-H회",temp:0.2},
     {name:"경북대학교4-H회(상주캠)",temp:1.0},
+    {name:"한경댜학교4-H회",temp:0.8},
 ]
 
 rankNameList.sort((a, b) => b.temp - a.temp);
